@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    line-height: 1.4;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin: .25rem 0
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 2px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin: .4rem 0;
+}
+
+header {
+    padding: 1.25rem 1rem;
+    display: inline-flex;
+}
+
+nav {
+    margin-top: 50px;
+    padding: 10px 0px 10px 50px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: .35rem .5rem;
+    border-radius: .25rem;
+    transition: all .15s ease;
+}
+
+
+section {
+    padding: 1.25rem;
+    border-top: 4px solid rgba(47, 143, 74, .06);
+}
+
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+button {
+    display: inline-block;
+    background: green;
+    padding: .45rem .8rem;
+    border-radius: .375rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: orange;
+    border-color: green;
+}
+
+
+footer {
+    background: rgba(47, 143, 74, .95);
+    color: white;
+    padding: 1.5rem;
+}
+
+footer a {
+    color: rgba(255, 255, 255, .9);
+}
+
+footer a:hover {
+    color: orange;
+}
+
+
+p {
+    margin: .4rem 0;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+@media(max-width:768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
