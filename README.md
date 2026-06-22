@@ -1,4 +1,4 @@
-# Verde Saludable
+# Restaurant Verde Saludable
 
 Pagina web de un restaurante de comida saludable. Muestra el menu, los beneficios de comer sano, productos destacados, informacion del restaurante y datos de contacto.
 
